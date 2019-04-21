@@ -67,6 +67,11 @@ category_dir: categories
 paginate: 10
 paginate_path: "/page:num/"
 
+# Assets Settings
+sass:
+  sass_dir: assets/partials
+  style: compressed
+
 # Conversion
 markdown: kramdown
 excerpt_separator: <!--more-->
