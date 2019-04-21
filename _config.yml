@@ -25,4 +25,48 @@ show_comments: 1
 show_menu: 1
 fixed_sidebar: 1
 
-theme: jekyll-theme-cayman
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "true"
+
+# Serving
+url: ""
+baseurl: ""
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  research:
+    output: true
+    permalink: /research/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+permalink: /posts/:title
+category_dir: categories
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Conversion
+markdown: kramdown
+excerpt_separator: <!--more-->
