@@ -1,1 +1,28 @@
+# General Settings
+name: Gabriel Petrini
+job_title: econ research &amp; computer tools
+email: gpetrinidasilveira@gmail.com
+description: I'm an economics Master student @Unicamp.
+
+# Social Accounts
+social_networks:
+-  { name: facebook, url: '' }
+-  { name: twitter, url: '' }
+-  { name: instagram, url: '' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: '' }
+-  { name: skype, url: '' }
+-  { name: github, url: 'https://github.com/gpetrini' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+
+# Modules Settings
+show_categories: 1
+show_tags: 1
+show_email: 1
+show_rss: 1
+show_comments: 1
+show_menu: 1
+fixed_sidebar: 1
+
 theme: jekyll-theme-cayman
